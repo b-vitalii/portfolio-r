@@ -13,7 +13,7 @@ export default function Aside() {
     <div className="aside">
       <div className="logo">
         <a href="#">
-          <span>A</span>tlas
+          <span>V</span>Boiko
         </a>
       </div>
       <div className="nav-toggler">

@@ -33,15 +33,12 @@ export default function Contact() {
         <h3 className="contact-title padd-15">Have you any question ?</h3>
         <h4 className="contact-sub-title padd-15">I`M AT YOUR SERVICES</h4>
         <div className="row">
-          // ========Contact info item start======
           <ContactItem contactData={contactData} />
-          // ========Contact info item end======
         </div>
         <h3 className="contact-title padd-15">SEND ME AN EMAIL</h3>
         <h4 className="contact-sub-title padd-15">
           I`M VERY RESPONSIVE TO MESSAGE
         </h4>
-        // ============Contact form=============
         <ContactForm />
       </div>
     </section>

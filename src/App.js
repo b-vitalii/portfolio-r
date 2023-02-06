@@ -1,5 +1,5 @@
 import React from "react";
-import Aside from "./Main/Aside";
+import Aside from "./Aside/Aside";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Services from "./Services/Services";
