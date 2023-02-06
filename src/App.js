@@ -1,5 +1,5 @@
 import React from "react";
-import MainContent from "./Main/MainContent";
+import Aside from "./Main/Aside";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Services from "./Services/Services";
@@ -9,7 +9,7 @@ import Contact from "./Contact/Contact";
 export default function App() {
   return (
     <div>
-      <MainContent />
+      <Aside />
       <Home />
       <About />
       <Services />
