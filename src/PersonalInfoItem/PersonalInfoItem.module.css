@@ -1,0 +1,22 @@
+.info_item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.info_item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  /* color: var(--text-black-900); */
+  color: red;
+  /* border-bottom: 1px solid var(--bg-black-50); */
+  border-bottom: 1px solid red;
+}
+
+.info_item p span {
+  font-weight: 400;
+  /* color: var(--text-black-700); */
+  color: red;
+  margin-left: 4px;
+  display: inline-block;
+}

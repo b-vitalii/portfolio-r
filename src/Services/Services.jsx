@@ -37,14 +37,14 @@ export default function Services() {
     },
   ];
   return (
-    <section className="service section" id="services">
-      <div className="container">
-        <div className="row">
-          <div className="section-title padd-15">
+    <section className={style.service + " " + style.section} id="services">
+      <div className={style.container}>
+        <div className={style.row}>
+          <div className={style.section_title}>
             <h2>Services</h2>
           </div>
         </div>
-        <div className="row">
+        <div className={style.row}>
           <ServicesItem servicesData={servicesData} />
         </div>
       </div>

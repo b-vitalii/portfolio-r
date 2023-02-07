@@ -1,5 +1,6 @@
 import React from "react";
 import SkillsItem from "../SkillsItem/SkillsItem";
+import style from "../Skills/Skills.module.css";
 
 export default function Skills() {
   let data = [
@@ -21,8 +22,8 @@ export default function Skills() {
     },
   ];
   return (
-    <div className="skills padd-15">
-      <div className="row">
+    <div className={style.skills}>
+      <div className={style.row}>
         <SkillsItem data={data} />
       </div>
     </div>

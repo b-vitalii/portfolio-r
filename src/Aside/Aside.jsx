@@ -10,18 +10,18 @@ import style from "./Aside.module.css";
 
 export default function Aside() {
   return (
-    <div className="aside">
-      <div className="logo">
+    <div className={style.aside}>
+      <div className={style.logo}>
         <a href="#">
-          <span>V</span>Boiko
+          <span>V</span>Boi<span>Ko</span>
         </a>
       </div>
-      <div className="nav-toggler">
+      <div className={style.nav_toggler}>
         <span></span>
       </div>
-      <ul className="nav">
+      <ul className={style.nav}>
         <li>
-          <a href="#home" className="active">
+          <a href="#home" className={style.active}>
             <Home /> Home
           </a>
         </li>

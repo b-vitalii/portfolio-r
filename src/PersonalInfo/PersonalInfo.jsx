@@ -1,6 +1,7 @@
 import React from "react";
 import { LocationOn, Phone, Mail, Web, Class } from "@material-ui/icons";
 import PersonalInfoItem from "../PersonalInfoItem/PersonalInfoItem";
+import style from "../PersonalInfo/PersonalInfo.module.css";
 
 export default function PersonalInfo() {
   let data = [
@@ -34,16 +35,16 @@ export default function PersonalInfo() {
     },
   ];
   return (
-    <div className="personal-info padd-15">
-      <div className="row">
+    <div className={style.personal_info}>
+      <div className={style.row}>
         <PersonalInfoItem data={data} />
       </div>
-      <div className="row">
-        <div className="buttons padd-15">
+      <div className={style.row}>
+        <div className={style.buttons}>
           <button
             href="#contact"
             data-section-index="1"
-            className="btn hire-me"
+            className={style.btn + " " + style.hire_me}
           >
             Hire Me
           </button>

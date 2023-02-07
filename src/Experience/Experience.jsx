@@ -1,5 +1,6 @@
 import React from "react";
 import TimelineItem from "../TimelineItem/TimelineItem";
+import style from "../Experience/Experience.module.css";
 
 export default function Experience() {
   let data = [
@@ -23,11 +24,11 @@ export default function Experience() {
     },
   ];
   return (
-    <div className="experience padd-15">
-      <h3 className="title">Experience</h3>
-      <div className="row">
-        <div className="timeline-box padd-15">
-          <div className="timeline shadow-dark">
+    <div className={style.experience}>
+      <h3 className={style.title}>Experience</h3>
+      <div className={style.row}>
+        <div className={style.timeline_box}>
+          <div className={style.timeline + " " + style.shadow_dark}>
             <TimelineItem data={data} />
           </div>
         </div>

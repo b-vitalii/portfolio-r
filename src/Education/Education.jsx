@@ -1,5 +1,6 @@
 import React from "react";
 import TimelineItem from "../TimelineItem/TimelineItem";
+import style from "../Education/Education.module.css";
 
 export default function Education() {
   let data = [
@@ -23,11 +24,11 @@ export default function Education() {
     },
   ];
   return (
-    <div className="education padd-15">
-      <h3 className="title">Education</h3>
-      <div className="row">
-        <div className="timeline-box padd-15">
-          <div className="timeline shadow-dark">
+    <div className={style.education}>
+      <h3 className={style.title}>Education</h3>
+      <div className={style.row}>
+        <div className={style.timeline_box}>
+          <div className={style.timeline + " " + style.shadow_dark}>
             <TimelineItem data={data} />
           </div>
         </div>

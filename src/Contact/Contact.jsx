@@ -1,6 +1,7 @@
 import React from "react";
 import ContactItem from "../ContactItem/ContactItem";
 import ContactForm from "../ContactForm/ContactForm";
+import style from "../Contact/Contact.module.css";
 
 export default function Contact() {
   let contactData = [
@@ -23,20 +24,20 @@ export default function Contact() {
   ];
 
   return (
-    <section className="contact section" id="contact">
-      <div className="container">
-        <div className="row">
-          <div className="section-title padd-15">
+    <section className={style.contact + " " + style.section} id="contact">
+      <div className={style.container}>
+        <div className={style.row}>
+          <div className={style.section_title}>
             <h2>Contact Me</h2>
           </div>
         </div>
-        <h3 className="contact-title padd-15">Have you any question ?</h3>
-        <h4 className="contact-sub-title padd-15">I`M AT YOUR SERVICES</h4>
-        <div className="row">
+        <h3 className={style.contact_title}>Have you any question ?</h3>
+        <h4 className={style.contact_sub_title}>I`M AT YOUR SERVICES</h4>
+        <div className={style.row}>
           <ContactItem contactData={contactData} />
         </div>
-        <h3 className="contact-title padd-15">SEND ME AN EMAIL</h3>
-        <h4 className="contact-sub-title padd-15">
+        <h3 className={style.contact_title}>SEND ME AN EMAIL</h3>
+        <h4 className={style.contact_sub_title}>
           I`M VERY RESPONSIVE TO MESSAGE
         </h4>
         <ContactForm />

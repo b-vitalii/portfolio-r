@@ -1,18 +1,37 @@
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 import heroImage from "../images/hero.jpg";
 import style from "./Home.module.css";
+import mainStyle from "../index.css";
 
 export default function Home() {
   return (
-    <section className="home active section" id="home">
-      <div className="container">
-        <div className="row">
-          <div className="home-info padd-15">
-            <h3 className="hello">
-              Hello, my name is <span className="name">Vitalii Boiko</span>
+    <section
+      className={style.home + " " + style.active + " " + style.section}
+      id="home"
+    >
+      <div className={style.container}>
+        <div className={style.row}>
+          <div className={style.home_info}>
+            <h3 className={style.hello}>
+              Hello, my name is{" "}
+              <span className={style.name}>Vitalii Boiko</span>
             </h3>
-            <h3 className="my-profession">
-              I`m <span className="typing">web designer</span>
+            <h3 className={style.my_profession}>
+              I`m{" "}
+              <span className={style.typing}>
+                <ReactTypingEffect
+                  text={[
+                    "JavaScript Developer",
+                    "React Developer",
+                    "Web Designer",
+                  ]}
+                  speed={100}
+                  eraseSpeed={100}
+                  eraseDelay={1000}
+                  typingDelay={100}
+                />
+              </span>
             </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut
@@ -20,11 +39,11 @@ export default function Home() {
               officiis mollitia soluta reiciendis ipsam eveniet ad accusantium,
               quas commodi.
             </p>
-            <button href="#" className="btn">
+            <button href="#" className={style.btn}>
               Download CV
             </button>
           </div>
-          <div className="home-img padd-15">
+          <div className={style.home_img}>
             <img src={heroImage} alt="hero" />
           </div>
         </div>

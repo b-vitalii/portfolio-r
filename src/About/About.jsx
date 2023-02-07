@@ -8,17 +8,17 @@ import Experience from "../Experience/Experience";
 
 export default function About() {
   return (
-    <section className="about section" id="about">
-      <div className="container">
-        <div className="row">
-          <div className="section-title padd-15">
+    <section className={style.about + " " + style.section} id="about">
+      <div className={style.container}>
+        <div className={style.row}>
+          <div className={style.section_title}>
             <h2>About Me</h2>
           </div>
         </div>
-        <div className="row">
-          <div className="about-content padd-15">
-            <div className="row">
-              <div className="about-text padd-15">
+        <div className={style.row}>
+          <div className={style.about_content}>
+            <div className={style.row}>
+              <div className={style.about_text}>
                 <h3>
                   I`m Vitalii Boiko and <span>Web Developer</span>
                 </h3>
@@ -30,11 +30,11 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="row">
+            <div className={style.row}>
               <PersonalInfo />
               <Skills />
             </div>
-            <div className="row">
+            <div className={style.row}>
               <Education />
               <Experience />
             </div>

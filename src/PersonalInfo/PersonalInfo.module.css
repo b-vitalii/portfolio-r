@@ -1,0 +1,58 @@
+.personal_info {
+  flex: 0 0 60%;
+  max-width: 60%;
+  margin-top: 40px;
+}
+
+.personal_info .info-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.personal_info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  /* color: var(--text-black-900); */
+  color: red;
+  /* border-bottom: 1px solid var(--bg-black-50); */
+  border-bottom: 1px solid red;
+}
+
+.personal_info .info-item p span {
+  font-weight: 400;
+  /* color: var(--text-black-700); */
+  color: red;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.personal_info .buttons {
+  margin-top: 30px;
+}
+
+.personal_info .buttons .btn {
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  /* background: var(--skin-color); */
+  background: red;
+  transition: all 0.3s ease;
+}

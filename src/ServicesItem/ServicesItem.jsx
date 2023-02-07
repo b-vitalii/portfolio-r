@@ -1,14 +1,15 @@
 import React from "react";
 import { MobileFriendly, Computer, Palette, Web } from "@material-ui/icons";
+import style from "../ServicesItem/ServicesItem.module.css";
 
 export default function ServicesItem({ servicesData }) {
   return (
     <>
       {servicesData.map(({ title, description }) => (
-        <div className="service-item padd-15">
-          <div className="service-item-inner">
-            <div className="icon">
-              <i className="fa fa-mobile-alt">
+        <div className={style.service_item}>
+          <div className={style.service_item_inner}>
+            <div className={style.icon}>
+              <i className={style.fa}>
                 {title === "Web Design" ? (
                   <Palette />
                 ) : title === "Javascript" ? (
