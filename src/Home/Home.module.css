@@ -32,7 +32,7 @@ ul {
   transition: all 0.3s ease;
 }
 
-.section.back-section {
+.section.back_section {
   z-index: 1;
 }
 

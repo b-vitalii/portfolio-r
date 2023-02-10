@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { LocationOn, Phone, Mail, Web, Class } from "@material-ui/icons";
 import PersonalInfoItem from "../PersonalInfoItem/PersonalInfoItem";
 import style from "../PersonalInfo/PersonalInfo.module.css";
+// import Modal from "../Modal/Modal";
 
-export default function PersonalInfo() {
+export default function PersonalInfo({ openModal }) {
   let data = [
     {
       title: "Birthday",
@@ -34,6 +35,7 @@ export default function PersonalInfo() {
       desc: "Available",
     },
   ];
+
   return (
     <div className={style.personal_info}>
       <div className={style.row}>
@@ -45,6 +47,7 @@ export default function PersonalInfo() {
             href="#contact"
             data-section-index="1"
             className={style.btn + " " + style.hire_me}
+            onClick={openModal}
           >
             Hire Me
           </button>

@@ -3,7 +3,7 @@ import ContactItem from "../ContactItem/ContactItem";
 import ContactForm from "../ContactForm/ContactForm";
 import style from "../Contact/Contact.module.css";
 
-export default function Contact() {
+export default function Contact({ status }) {
   let contactData = [
     {
       title: "Call Us On",
@@ -24,7 +24,16 @@ export default function Contact() {
   ];
 
   return (
-    <section className={style.contact + " " + style.section} id="contact">
+    <section
+      className={
+        style.contact +
+        " " +
+        style.section +
+        " " +
+        (status.contact ? style.active : "")
+      }
+      id="contact"
+    >
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.section_title}>

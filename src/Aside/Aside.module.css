@@ -135,7 +135,8 @@
 }
 
 .aside .nav li a.active {
-  color: var(--skin-color);
+  /* color: var(--skin-color); */
+  color: red;
   /* background: red; */
 }
 

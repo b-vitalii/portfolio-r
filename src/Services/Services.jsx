@@ -3,7 +3,7 @@ import { MobileFriendly, Computer, Palette } from "@material-ui/icons";
 import ServicesItem from "../ServicesItem/ServicesItem";
 import style from "./Services.module.css";
 
-export default function Services() {
+export default function Services({ status }) {
   let servicesData = [
     {
       title: "Web Design",
@@ -37,7 +37,16 @@ export default function Services() {
     },
   ];
   return (
-    <section className={style.service + " " + style.section} id="services">
+    <section
+      className={
+        style.service +
+        " " +
+        style.section +
+        " " +
+        (status.services ? style.active : "")
+      }
+      id="services"
+    >
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.section_title}>

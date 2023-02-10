@@ -2,12 +2,19 @@ import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import heroImage from "../images/hero.jpg";
 import style from "./Home.module.css";
-import mainStyle from "../index.css";
 
-export default function Home() {
+export default function Home({ handleClickAside, status }) {
+  console.log(handleClickAside);
+  console.log(status);
   return (
     <section
-      className={style.home + " " + style.active + " " + style.section}
+      className={
+        style.home +
+        " " +
+        style.section +
+        " " +
+        (status.home ? style.active : "")
+      }
       id="home"
     >
       <div className={style.container}>
