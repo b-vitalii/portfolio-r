@@ -37,12 +37,12 @@ export default function PersonalInfo({ openModal }) {
   ];
 
   return (
-    <div className={style.personal_info}>
+    <div className={style.personal_info + " " + style.padd_15}>
       <div className={style.row}>
         <PersonalInfoItem data={data} />
       </div>
       <div className={style.row}>
-        <div className={style.buttons}>
+        <div className={style.buttons + " " + style.padd_15}>
           <button
             href="#contact"
             data-section-index="1"

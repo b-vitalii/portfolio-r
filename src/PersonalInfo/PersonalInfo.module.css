@@ -56,3 +56,12 @@
   background: red;
   transition: all 0.3s ease;
 }
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.padd_15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}

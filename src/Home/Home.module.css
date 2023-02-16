@@ -205,7 +205,7 @@ h3.my_profession {
   border-radius: 40px;
   display: inline-block;
   white-space: nowrap;
-  /* border: none; */
+  border: none;
   /* background: var(--skin-color); */
   background: red;
   transition: all 0.3s ease;

@@ -12,9 +12,9 @@ export default function Experience() {
     },
     {
       year: "2013-2021",
-      title: "Plane building",
+      title: "Aviation industry",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "My background experience includes more than 8 years in aviation. Five years in aircraft maintenance and more than three years as aircraft reliability engineer. I've experience in analytics and experience of providing training courses for technicians.",
     },
     {
       year: "2011-2013",
@@ -24,10 +24,10 @@ export default function Experience() {
     },
   ];
   return (
-    <div className={style.experience}>
+    <div className={style.experience + " " + style.padd_15}>
       <h3 className={style.title}>Experience</h3>
       <div className={style.row}>
-        <div className={style.timeline_box}>
+        <div className={style.timeline_box + " " + style.padd_15}>
           <div className={style.timeline + " " + style.shadow_dark}>
             <TimelineItem data={data} />
           </div>

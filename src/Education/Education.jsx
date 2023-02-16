@@ -24,10 +24,10 @@ export default function Education() {
     },
   ];
   return (
-    <div className={style.education}>
+    <div className={style.education + " " + style.padd_15}>
       <h3 className={style.title}>Education</h3>
       <div className={style.row}>
-        <div className={style.timeline_box}>
+        <div className={style.timeline_box + " " + style.padd_15}>
           <div className={style.timeline + " " + style.shadow_dark}>
             <TimelineItem data={data} />
           </div>

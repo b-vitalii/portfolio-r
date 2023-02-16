@@ -6,7 +6,7 @@ export default function PersonalInfoItem({ data }) {
   return (
     <>
       {data.map(({ title, desc }) => (
-        <div className={style.info_item}>
+        <div className={style.info_item + " " + style.padd_15}>
           <p>
             {title} : <span>{desc}</span>
           </p>

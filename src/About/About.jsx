@@ -32,22 +32,34 @@ export default function About({ status }) {
     >
       <div className={style.container}>
         <div className={style.row}>
-          <div className={style.section_title}>
+          <div className={style.section_title + " " + style.padd_15}>
             <h2>About Me</h2>
           </div>
         </div>
         <div className={style.row}>
-          <div className={style.about_content}>
+          <div className={style.about_content + " " + style.padd_15}>
             <div className={style.row}>
-              <div className={style.about_text}>
+              <div className={style.about_text + " " + style.padd_15}>
                 <h3>
                   I`m Vitalii Boiko and <span>Web Developer</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
-                  consequuntur inventore maiores totam doloremque. Laborum
-                  dolores libero expedita quo temporibus quasi, quod aut tempora
-                  ducimus vel iusto, recusandae saepe ratione!
+                  I've been in development for over a year, mostly working with
+                  JavaScript and libraries like React. I pay attention to
+                  various little things in order to achieve the highest quality
+                  result. Willing to learn new and expand my current knowledge
+                  of the above as needed to the point that it makes me do my job
+                  faster, better and more efficiently. My background experience
+                  includes more than 8 years in aviation industry. Five years in
+                  aircraft maintenance and more than three years as aircraft
+                  reliability engineer. I've experience in analytics and
+                  experience of providing training courses for technicians. I’m
+                  easy learning, self-motivated, responsible, open mind person
+                  and always optimistic. My background experience gives me such
+                  skills as accuracy and attention to details, strong analytical
+                  and communication skills, tolerant to stressed situations,
+                  active team player, accepting feedback and applying lessons
+                  learned.
                 </p>
               </div>
             </div>

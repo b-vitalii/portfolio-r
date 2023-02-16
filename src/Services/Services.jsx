@@ -49,7 +49,7 @@ export default function Services({ status }) {
     >
       <div className={style.container}>
         <div className={style.row}>
-          <div className={style.section_title}>
+          <div className={style.section_title + " " + style.padd_15}>
             <h2>Services</h2>
           </div>
         </div>

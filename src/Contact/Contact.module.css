@@ -51,7 +51,7 @@
   display: none !important;
 }
 
-.padd-15 {
+.padd_15 {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -121,6 +121,8 @@
   /* background: var(--skin-color); */
   background: red;
   transition: all 0.3s ease;
+  margin: 0 auto;
+  display: block;
 }
 
 .shadow_dark {

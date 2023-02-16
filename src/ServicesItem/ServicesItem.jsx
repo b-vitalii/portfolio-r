@@ -6,7 +6,7 @@ export default function ServicesItem({ servicesData }) {
   return (
     <>
       {servicesData.map(({ title, description }) => (
-        <div className={style.service_item}>
+        <div className={style.service_item + " " + style.padd_15}>
           <div className={style.service_item_inner}>
             <div className={style.icon}>
               <i className={style.fa}>

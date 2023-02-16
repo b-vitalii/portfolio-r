@@ -22,9 +22,15 @@ export default function Skills() {
     },
   ];
   return (
-    <div className={style.skills}>
-      <div className={style.row}>
-        <SkillsItem data={data} />
+    <div className={style.skills + " " + style.padd_15}>
+      <div className={style.row + " " + style.padd_15}>
+        <h2>Skills</h2>
+        <p>
+          JavaScript, React, Redux, HTML5, CSS3, tween.js, howler.js, three.js,
+          Sass (SCSS), BEM, Git, GitHub|GitLab, jQuery, Bootstrap, Ajax, Fetch,
+          Axios, Handlebars, Webpack, Gulp, Photoshop, Figma, Trello|Jira.
+        </p>
+        {/* <SkillsItem data={data} /> */}
       </div>
     </div>
   );

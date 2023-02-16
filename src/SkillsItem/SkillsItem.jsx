@@ -5,7 +5,7 @@ export default function SkillsItem({ data }) {
   return (
     <>
       {data.map(({ title, percent }) => (
-        <div className={style.skill_item}>
+        <div className={style.skill_item + " " + style.padd_15}>
           <h5>{title}</h5>
           <div className={style.progress}>
             <div className={style.progress_in}></div>

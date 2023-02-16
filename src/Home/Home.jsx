@@ -41,10 +41,12 @@ export default function Home({ handleClickAside, status }) {
               </span>
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut
-              quo quos similique ex soluta, expedita culpa nihil aperiam? Rem
-              officiis mollitia soluta reiciendis ipsam eveniet ad accusantium,
-              quas commodi.
+              I've been in development for over a year, mostly working with
+              JavaScript and libraries like React. I pay attention to various
+              little things in order to achieve the highest quality result.
+              Willing to learn new and expand my current knowledge of the above
+              as needed to the point that it makes me do my job faster, better
+              and more efficiently.
             </p>
             <button href="#" className={style.btn}>
               Download CV

@@ -21,7 +21,7 @@ export default function Aside({ handleClickAside, status }) {
   return (
     <div className={style.aside}>
       <div className={style.logo}>
-        <a href="#">
+        <a href="#home">
           <span>V</span>Boi<span>Ko</span>
         </a>
       </div>
