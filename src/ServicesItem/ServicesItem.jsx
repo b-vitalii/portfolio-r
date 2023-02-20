@@ -12,9 +12,9 @@ export default function ServicesItem({ servicesData }) {
               <i className={style.fa}>
                 {title === "Web Design" ? (
                   <Palette />
-                ) : title === "Javascript" ? (
+                ) : title === "Front-End Development" ? (
                   <Computer />
-                ) : title === "Phone app" ? (
+                ) : title === "Mobile Application" ? (
                   <MobileFriendly />
                 ) : (
                   <Web />

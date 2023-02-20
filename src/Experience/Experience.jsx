@@ -8,7 +8,7 @@ export default function Experience() {
       year: "2021-present",
       title: "Play To Max",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "Playable ads development, HTML5 games developing within the given specification.",
     },
     {
       year: "2013-2021",
@@ -19,8 +19,7 @@ export default function Experience() {
     {
       year: "2011-2013",
       title: "Sales manager",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+      description: "",
     },
   ];
   return (

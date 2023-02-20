@@ -6,21 +6,21 @@ export default function Education() {
   let data = [
     {
       year: "2007-2013",
-      title: "Master In Plane Building",
+      title:
+        "National Technical University of Ukraine «Igor Sikorsky Kyiv Polytechnic Institute»",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "Faculty of Aviation and Space Systems. Master In Plane Building",
     },
     {
-      year: "2013-2015",
-      title: "Phone app",
+      year: "2020-2021",
+      title: "«SkillUp» courses",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "Projects development JS (GALLERY, MENU-PAGE, TIMER, COUNTIES-APP, PIXABAY-GALLERY, TELEGRAM-BOT); Group collaboration project (FILM POINT); Projects development React (SOCIAL-NETWORK-PAGE, FEEDBACK-APP, PHONEBOOK-APP,WEB-SITE,REACT-CHAT-APP, WEATHER-APP-PWA, AVIATION-QUIZ-GAME).",
     },
     {
       year: "2015-2018",
       title: "Web Design",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+      description: "",
     },
   ];
   return (

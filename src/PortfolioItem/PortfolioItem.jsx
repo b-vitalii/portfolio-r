@@ -7,8 +7,11 @@ export default function PortfolioItem({ portfolioData }) {
   };
   return (
     <>
-      {portfolioData.map(({ img, title }) => (
-        <div className={style.portfolio_item} onClick={porfolioItemClick}>
+      {portfolioData.map(({ img, title, description }) => (
+        <div
+          className={style.portfolio_item + " " + style.padd_15}
+          onClick={porfolioItemClick}
+        >
           <div
             className={
               style.portfolio_item_inner +
@@ -25,6 +28,7 @@ export default function PortfolioItem({ portfolioData }) {
           <div className={style.back}>
             <div className={style.back_content + " " + style.center}>
               <h3>{title}</h3>
+              <p>{description}</p>
             </div>
           </div>
         </div>

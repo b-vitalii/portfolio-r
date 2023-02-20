@@ -30,10 +30,6 @@ export default function PersonalInfo({ openModal }) {
       title: "City",
       desc: "Kyiv",
     },
-    {
-      title: "Freelnace",
-      desc: "Available",
-    },
   ];
 
   return (

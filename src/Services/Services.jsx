@@ -6,22 +6,22 @@ import style from "./Services.module.css";
 export default function Services({ status }) {
   let servicesData = [
     {
-      title: "Web Design",
+      title: "Front-End Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "I love to visualize the tasks assigned to me and also give them dynamics, so that everything around seems to come to life.",
     },
     {
       title: "Web Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "I think over the design of websites and applications created by me myself and try to make them as responsive and interactive as possible.",
     },
     {
-      title: "Javascript",
+      title: "Mobile Application",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
+        "One of my strongest interests and hobbies is mobile development. I love developing mobile applications that will be useful to people.",
     },
     {
-      title: "Phone app",
+      title: "Web Design",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente explicabo dolor, quibusdam vero impedit sint eligendi dolorem tenetur, dolore nam voluptates quidem placeat dignissimos facere temporibus omnis veniam molestias.",
     },
